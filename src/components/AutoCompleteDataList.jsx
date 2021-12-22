@@ -1,12 +1,12 @@
 import React, { useMemo, useCallback } from "react";
 import DataListInput from "react-datalist-input";
 
-const AutoCompleteDataList = ({ myValues, setTerm, onSelect }) => {
+const AutoCompleteDataList = ({ myValues, setTerm, onSelect, setItem }) => {
 
   const onInput = useCallback((value) => {
+    value === "" && setItem({})
     setTerm(value)
-  }, [setTerm]);
-
+  }, [setTerm, setItem]);
 
   // the array you want to pass to the react-data-list component
   // key and label are required properties
@@ -24,7 +24,6 @@ const AutoCompleteDataList = ({ myValues, setTerm, onSelect }) => {
       })),
     [myValues]
   );
-
 
   return (
     <DataListInput

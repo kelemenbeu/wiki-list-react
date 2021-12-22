@@ -2,9 +2,8 @@ import React from 'react';
 import { RiCloseCircleLine } from 'react-icons/ri';
 
 const Wiki = ({ wikis, removeWiki }) => {
-  console.log("wikis: ", wikis)
 
-  return wikis !== [] && wikis?.map((wiki, index) => (
+  return wikis?.map((wiki, index) => (
     <div
 	className='wiki-row'
 	key={index}
