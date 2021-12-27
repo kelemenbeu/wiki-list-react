@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wiki-list-react/static/css/main.398b8cf3.css",
+    "main.js": "/wiki-list-react/static/js/main.0c292f03.js",
+    "static/js/787.c50b894a.chunk.js": "/wiki-list-react/static/js/787.c50b894a.chunk.js",
+    "index.html": "/wiki-list-react/index.html",
+    "main.398b8cf3.css.map": "/wiki-list-react/static/css/main.398b8cf3.css.map",
+    "main.0c292f03.js.map": "/wiki-list-react/static/js/main.0c292f03.js.map",
+    "787.c50b894a.chunk.js.map": "/wiki-list-react/static/js/787.c50b894a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.398b8cf3.css",
+    "static/js/main.0c292f03.js"
+  ]
+}
